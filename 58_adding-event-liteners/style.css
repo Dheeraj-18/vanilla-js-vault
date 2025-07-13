@@ -1,0 +1,35 @@
+h1{
+    background-color: beige;
+}
+
+
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card {
+    width: 100px;
+    height: 120px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 36px;
+}
+
+.add-card{
+    cursor: pointer;
+    background-color: darkturquoise;
+    color: white;
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 10px;
+}
