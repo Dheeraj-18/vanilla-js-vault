@@ -4,8 +4,16 @@
 //            Hard-to-read
 //            Hard-to-maintain
 //            Error-prone code
+//      Also called: "Pyramid of Doom"
 
-// Also called: "Pyramid of Doom"
+// 🔁 2. Inversion of Control (IoC)
+//        📌 Definition:
+// Inversion of Control occurs when you pass control of your program flow to another function or library, often via callbacks.
+
+// You lose control over:
+//      When your callback will run
+//      How many times it runs
+//       Whether it even runs at all
 
 function makeHttpRequest(method, url, callback) {
   const xhr = new XMLHttpRequest()
