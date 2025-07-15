@@ -1,3 +1,12 @@
+// 🧩 1. Callback Hell
+//      📌 Definition:
+//         Callback Hell happens when multiple nested callbacks are used to handle asynchronous operations, leading to:
+//            Hard-to-read
+//            Hard-to-maintain
+//            Error-prone code
+
+// Also called: "Pyramid of Doom"
+
 function makeHttpRequest(method, url, callback) {
   const xhr = new XMLHttpRequest()
   xhr.responseType = 'json'
