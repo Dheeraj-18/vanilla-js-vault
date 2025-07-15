@@ -3,7 +3,7 @@
 
 // 1. fetch('') return a promise object
 // 2. whenever we request using fetch APi so on the first time it not return a data in promiseResult it return a response object and the
-//   data are inside the body : ReadableStream so ,on that we do response.json()  then it also return a promise object with promiseResult is our data
+//   data are inside the body : ReadableStream so ,on that we do response.json()  then it also return a promise object with promiseResult is our data actually
 // 3. In the response object there is headers i.e when the promise resolve then header appears in the response object
 // 3. by default fetch('') send the GET request
 // 4. for other method fetch take a second argument i.e { method : "GET"}
