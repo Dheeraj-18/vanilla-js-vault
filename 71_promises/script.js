@@ -33,6 +33,12 @@
 //    If you return a Promise inside .then(), it waits for that inner Promise to settle.
 //  ******* HERE our code grow vertically so we solve problem of callback Hell ("pyramid of doom )
 
+//                               <<<<<<<<     ALL Definition of Promises       >>>>>>>>
+
+// 1. Promise object is a placeholder which will be filled with a later value after completion the async operation
+// 2 ** Mdn web docs (definition)
+//    => Promise is a Object representing the eventual completion or failure of an asynchronous operation and its resulting value.
+
 const resolveBtn = document.querySelector('#resolve-btn')
 const rejectBtn = document.querySelector('#reject-btn')
 
