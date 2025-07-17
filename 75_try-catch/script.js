@@ -6,6 +6,8 @@
 // 4. catch block run only when error occur but finally block run in both cases either it try or error
 // 5. We not use in generally in synchronous code use in asynchronous code in async/ await
 // 6 with try catch must use otherwise show error
+// 7. whenever the js engine encounter the error so it doesn't execute forward rest code not execute that why use error handling using try and 
+//    catch . so when error encounter then show the error message from catch block then rest of the code will run . 
 //   _______________________________________________________________________________________________________________-
 
 // const user = {
