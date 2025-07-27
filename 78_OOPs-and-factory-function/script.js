@@ -47,7 +47,7 @@ function createUser(firstName, lastName, age) {
     lastName,
     age,
     getAgeYear() {
-      return new Date().getFullYear() - user1.age
+      return new Date().getFullYear() - user.age
     },
   }
   return user
