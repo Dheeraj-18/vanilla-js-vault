@@ -2,8 +2,11 @@
 
 // Note-1: Angular based on object oriented programming In earlier react was also based OOps but now react totally shift on functional programming
 // Note-2: Four Pillars of OOps
-//         > Encapsulation
-//         > Abstraction (hiding the complexity)
+//         > Encapsulation - Encapsulation in JavaScript (and in general Object-Oriented Programming) refers to the concept of binding data (properties) 
+//                           and methods (functions) together within an object and restricting direct access to some of the object’s internal components.
+
+//         > Abstraction  - Abstraction is the process of hiding the complex implementation details and showing only the 
+//                          essential features of an object or function.
 //         > Inheritance
 //         > Polymorphism
 
