@@ -2,10 +2,10 @@
 
 // Note-1: Angular based on object oriented programming In earlier react was also based OOps but now react totally shift on functional programming
 // Note-2: Four Pillars of OOps
-//         > Encapsulation - Encapsulation in JavaScript (and in general Object-Oriented Programming) refers to the concept of binding data (properties) 
+//         > Encapsulation - Encapsulation in JavaScript (and in general Object-Oriented Programming) refers to the concept of binding data (properties)
 //                           and methods (functions) together within an object and restricting direct access to some of the object’s internal components.
 
-//         > Abstraction  - Abstraction is the process of hiding the complex implementation details and showing only the 
+//         > Abstraction  - Abstraction is the process of hiding the complex implementation details and showing only the
 //                          essential features of an object or function.
 //         > Inheritance
 //         > Polymorphism
@@ -26,7 +26,7 @@
 //            > Creates and returns a new object.
 //            > Encapsulates logic to generate object instances. (Helps achieve encapsulation.)
 
-// Note-6: But here is a problem that same getAgeYear function take memory in each object even they work same . 
+// Note-6: But here is a problem that same getBirthYear function take memory in each object even they work same .
 
 // NOTE- SOLUTION: with the Constructor function we solve this problem
 
@@ -36,7 +36,7 @@
 //   firstName: 'Himmat',
 //   lastName: 'Singh',
 //   age: 25,
-//   getAgeYear() {
+//   getBirthYear() {
 //     return new Date().getFullYear() - user1.age
 //   },
 // }
@@ -46,12 +46,12 @@ function createUser(firstName, lastName, age) {
     firstName,
     lastName,
     age,
-    getAgeYear() {
+    getBirthYear() {
       return new Date().getFullYear() - user.age
     },
   }
   return user
 }
 
-const user1 = createUser('Rishi','pandey',34)
-const user2 = createUser('Raman','pandey',34)
+const user1 = createUser('Rishi', 'pandey', 34)
+const user2 = createUser('Raman', 'pandey', 34)
