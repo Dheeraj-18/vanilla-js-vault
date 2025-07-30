@@ -30,7 +30,9 @@
 
 class CreateUser {
   constructor(firstName, lastName, age) {
-    ;(this.firstName = firstName), (this.lastName = lastName), (this.age = age)
+    this.firstName = firstName
+    this.lastName = lastName
+    this.age = age
   }
 
   getBirthYear() {
