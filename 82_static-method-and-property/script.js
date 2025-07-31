@@ -6,7 +6,7 @@
 //        > we also set without using static keyword outside the class directly e.g CreateUser.hii = 'Namaste'.
 //            Just for clean syntax we use it inside the class . using static keyword
 
-// NOTE-2: These static property and static methods are not accessible by the user object which are return by class . and also now shown on that
+// NOTE-2: These static property and static methods are not accessible by the user object which are return by class . and also not shown on that
 //        object .
 //        > all static property are not goes into the prototype i.e also not inherit into the returning object .
 
