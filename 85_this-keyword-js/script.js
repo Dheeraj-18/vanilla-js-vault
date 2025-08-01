@@ -102,4 +102,5 @@ body.addEventListener('click',(e)=>{
    }
  }
 
- //           ____________ In the class , inside  static Block  'this' point to the class itself not the returning object ________
+ //           ____________ In the class , inside  static Block  and inside the static method 'this' point to the class itself not the 
+ //                          returning object ________
