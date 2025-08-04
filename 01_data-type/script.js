@@ -18,6 +18,7 @@
 //      eg. +null give console output is 0.
 //      eg. +undefined give console output is NaN . 
 //      eg. ParseInt(undefined) give console output is NaN 
+//      > typeof NaN   give output -> number 
 // 10.  _IMP. typeof null give console output is object This is a BUG IN javascript desired output is null but IN 
 //      a initial phase bug in JS till now it't not fixed 
 // 11. String is immutable in nature that means if we declare let message ="Hello world" so we cannot change the perticular character on index but 
