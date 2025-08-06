@@ -1,4 +1,4 @@
-// < -------------------------------------------------Object (primitive data type) --------------------------------------->
+// < -------------------------------------------------Object (Non- primitive data type) --------------------------------------->
 // Note-1: IN object Key value pair is stored
 // Note-2: Here we can create two object(even empty) and having a same values and variables but when we compare both i.e user1 === user2 then it give
 //         false bcz it compare on reference basis SO when we compare two object it compare there address of objects
