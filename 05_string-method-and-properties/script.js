@@ -42,6 +42,7 @@
 //                                                             VII.   charAt(index)
 //                                                              iX.    charCodeAt(index)
 //                                                               x.    split(separator)
+//                                                               xi.   at.(index)
 
 
 
