@@ -3,7 +3,7 @@
 //                                        ===============================================
 
 // NOTE-1: As we see the javascript code are executed in the two phases One is Memory execution phase or second Code execution phase.
-// NOTE-2: IN the Memory execution phase memory is allocated for the variable and all the variable are initialize wth the value undefined
+// NOTE-2: IN the Memory creation phase phase memory is allocated for the variable and all the variable are initialize wth the value undefined
 //         which is using var keyword other are unavailable i.e go on TDZ not accessible before initialization 
 
 // Hoisting :when we try to access the variable , classes , function before it's declaration and it does not through error then we say these variable
@@ -17,7 +17,7 @@
 
 //                            <----------------- Function expression vs function declaration (interview question )
 
-// Note- 3: Function Expression : we can define with the use of variable const in this case in memory execution phase entire code is not store in the
+// Note- 3: Function Expression : we can define with the use of variable const in this case in memory creation phase entire code is not store in the
 //                                variable sayhii only undefined or in the script if we use const or let so in this definition our function is not
 //                                Hoisting
 // NOTE-4 Function Declaration :  It is tradition way to define the function in this case in the memory creation phase entire code of function are store in the
