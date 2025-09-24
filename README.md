@@ -136,11 +136,6 @@ This repo is mainly my **personal learning journal**, but if you find something 
 
 ---
 
-## 🧑‍💻 Author  
-**Dheeraj Saraswat**  
-- 💼 Aspiring **Full-Stack Web Developer**  
-- 📘 Passionate about **Web Development & System Design**  
-- 🚀 Building projects & sharing my journey  
 
 ---
 
