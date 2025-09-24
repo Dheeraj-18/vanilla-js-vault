@@ -9,7 +9,7 @@
 
 // NOTE-2: (2nd way to add Event Listeners) we add event listeners in js file using DOM manipulation  on each element Node have all these
 //         event listeners properties then we set value of the properties using .onClick =
-//       a) IN this way  to add eventListeners by set the value of the property of onClick we set only one event if se and another onClick in
+//       a) IN this way  to add eventListeners by set the value of the property of onClick we set only one event if we set another onClick 
 //        again it override the first one
 
 // NOTE-3: (3rd way using addEventListeners()) In this way to add event in JS DOM we use the method addEventListeners('event_listeners','event','event'....)
