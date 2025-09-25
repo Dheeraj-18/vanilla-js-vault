@@ -2,7 +2,7 @@
 //                                               ______________________________________
 
 // NOTE: localStorage is a window object in browser we directly access by localStorage.key
-// NOTE: In the chrome dev tool application tab show local storage and her we se the data of local storage
+// NOTE: In the chrome dev tool application tab show local storage and here we see the data of local storage
 //       object data on the url and every URL and have different local storage data.
 // NOTE: IN localStorage object there is key and value and here what we give to the value it treated as string
 // NOTE: If our localStorage is empty or not exist then if we access then
