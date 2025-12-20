@@ -21,7 +21,7 @@ console.log(`Name:${userName}`);
 console.log(`Age:${userAge}`);
 
 // if ((userName === null || userName === "") && isNaN(userAge)) {
-//   console.log("Name: procoder");
+//   console.log("Name: Developer");
 //   console.log("Age : 22");
 // }
 
