@@ -13,7 +13,7 @@
 // 🔗 Prototype Chain (Definition):
 //    Prototype chaining is a mechanism in JavaScript where objects inherit properties and methods from other objects via  their [[Prototype]]
 //    (i.e., the internal link to another object).
-//   > Every object prototype chain end on the object at last . 
+//   > Every object prototype chain end on the object at last .
 
 // When you try to access a property or method on an object, JavaScript will:
 //      1. Look for it on the object itself.
@@ -27,7 +27,7 @@
 
 // NOTE-5: IF the property and method are same in child and parent class then , JavaScript always accesses the nearest property or method in the prototype chain.
 
-// NOTE-6: 
+// NOTE-6:
 
 class Person {
   live() {
