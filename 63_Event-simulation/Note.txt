@@ -1,0 +1,14 @@
+//                              Event simulation
+//                    ______________________________________
+
+// NOTE-1: There is No formal term Event Simulation , basically for event triggered we use mouse or keyboard then the event  fired ,
+//         so we will do it and  simulate event triggered  using js code i.e On every element in DOM there is a click method by using this we simulate the events
+// NOTE-2: ON every element there is a method click() with the help of these methods we simulate event triggered without using mouse or keyboard 
+//         just wite a js code 
+// NOTE-3 we simulate focus event on input element by using focus() method on input  element 
+//        we simulate blue event on input element by using  click() method on  input element
+// NOTE-4: we simulate for submit event on form by using the submit() method on it . 
+// NOTE-5: we also simulate the  form reset functionality by using js simulation  method on form element using form.reset() make sure the button 
+//         must set the attribute type is reset
+
+// WE mostly use frequently focus()  blur()  click()
