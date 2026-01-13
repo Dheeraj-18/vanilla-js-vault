@@ -3,7 +3,7 @@
 //                                        ===============================================
 
 // NOTE-1: As we see the javascript code are executed in the two phases One is Memory execution phase or second Code execution phase.
-// NOTE-2: IN the Memory creation phase phase memory is allocated for the variable and all the variable are initialize wth the value undefined
+// NOTE-2: IN the Memory creation phase  memory is allocated for the variable and all the variable are initialize wth the value undefined
 //         which is using var keyword other are unavailable i.e go on TDZ not accessible before initialization 
 
 // Hoisting :when we try to access the variable , classes , function before it's declaration and it does not through error then we say these variable

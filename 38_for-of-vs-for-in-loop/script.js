@@ -44,7 +44,7 @@ const person = {
 
 //                   -------------------- This is not efficient way to loop our object i.e it's slow  ------------------------
 for (const key in person) {
-  // we are not use able to use for of loop bcz object are not iterable
+  // we are not able to use for of loop bcz object are not iterable
   console.log(key, ':', person[key]) // we using bracket notation to access keyed value otherwise console key give only keyname
 }
 
