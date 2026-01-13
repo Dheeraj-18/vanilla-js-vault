@@ -3,7 +3,7 @@
 //                                  ===========================================
 
 // Note-1: we see the forEach() method there no return value it always return undefined .
-//         a) Here in map() method all think are same i.e function which passed called no of element times in array .
+//         a) Here in map() method all things are same i.e function which passed called no of element times in array .
 //         b) and return a array containing a return values when each time call the function (each time call ki return values ka array return kerta hai)
 //
 // Note-2: map() return a new array not modify the original array
