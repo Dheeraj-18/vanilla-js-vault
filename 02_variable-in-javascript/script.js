@@ -46,4 +46,4 @@ const hoursInDay = 24;
 //   block but var is accessible outside the block same let behavior with const also with block  
 //   let and const are block scoped but var is function scoped 
 // (ii) we can access var variable before initialization if give a output value undefined  but let access before 
-//   initialization through error 
+//   initialization through Reference error 
