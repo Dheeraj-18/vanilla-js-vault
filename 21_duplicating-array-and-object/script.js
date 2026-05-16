@@ -7,8 +7,8 @@
 //      Objects i.e same variable point the same memory location
 
 // 2): but when we done same with primitive type it does not behave like that for eg. when we create a const userName = 'Dheeraj' then for the value 'Dheeraj' address
-//       it generated in the memory and then assign to userName= @2345 and then after that we create new variable  let userName2 = 'Dheeraj' not the same address is
-//       assign to userName2 i.e @2345 Not , when we change it like userName2 = userName2 + 'Sharma ' in memory new address it generated for that new created string
+//       it generated in the memory and then assign to userName= @2345 and then after that we create new variable  let userName2 = 'Dheeraj'  the same address is
+//       assign to userName2 i.e @2345 Now , when we change it like userName2 = userName2 + 'Sharma ' in memory new address it generated for that new created string
 //       and previous userName value not change like in array and object .
 
 // 3): object.assign(user2,user1) by using this method we copy the user1 array into user2 and now new address give to user2 and changes done in the
