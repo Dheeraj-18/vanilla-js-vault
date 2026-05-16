@@ -2,7 +2,7 @@
 //                            ===============================================
 //
 // 1. Global execution context :Two part Memory creation phase and code execution phase
-// 2. we also right call statement of the function before it's definition because in the memory creation phase in the global scope entire code is
+// 2. we also write call statement of the function before it's definition because in the memory creation phase in the global scope entire code is
 //    store into variable of sayHii
 // 3. when function is called it's create own local code execution context and after execution of this function is deleted form memory
 // 
