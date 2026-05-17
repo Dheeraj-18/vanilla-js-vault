@@ -19,7 +19,7 @@
 // NOTE-1: 'submit' event listener on form element whenever the form is submitted then the submit event listeners is fired
 // NOTE-2: whenever the submit event fire then if we want to console the event object so it no print of console bcz when we submit the
 //         the form page was reload and the object remove form the memory so , solution of this problem is on the event object there is a
-//         method called event.preventDefault() using the we stop the from default behavior
+//         method called event.preventDefault() using the we stop the form default behavior
 // NOTE-3: there is a global method called FormData from which we take all data of form
 // NOTE-4: event.target  value is changeable based on the element form which event is triggered or fired like in form we put a click event of form and we click anywhere 
 //        on from on any element inside the form so e.target value is that element on which we click and the click event is fired although event on form but e.target value 
