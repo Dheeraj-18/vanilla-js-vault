@@ -22,15 +22,30 @@
 // _________________________________________________________________
 
 // ✅ Formal Definition:
-// fetch() is a built-in JavaScript function used to make HTTP requests to servers, commonly to interact with web APIs. 
-// It supports all standard HTTP methods like GET, POST, PUT, DELETE, etc., and defaults to the GET method if none is specified. 
-// By default, it returns a Promise that resolves to a Response object, which contains status, headers, and body data. 
-// The response body is not automatically parsed; it must be read using methods like .json(), .text(), or .blob() 
-// to access the actual response data (commonly JSON when working with APIs).
-
+//
+// fetch() is a built-in Web API function available in JavaScript environments
+// that is used to make HTTP requests to servers, commonly for interacting with APIs.
+//
+// It supports standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE,
+// and defaults to the GET method if no method is specified.
+//
+// fetch() returns a Promise that resolves to a Response object containing
+// information such as status, headers, and response body.
+//
+// The response body is not automatically parsed and must be explicitly read
+// using methods like:
+//
+// .json()  -> parse JSON data
+// .text()  -> read plain text
+// .blob()  -> read binary data/files
+//
+// fetch() is asynchronous and commonly used for client-server communication
+// in modern web applications.
 
 // FETCH:
-// This is not an HTTP method — it is a JavaScript function used to make HTTP requests (including GET, POST, DELETE, etc.)
+// fetch() is not an HTTP method.
+// It is a JavaScript Web API function used to make HTTP requests
+// such as GET, POST, PUT, PATCH, and DELETE.
 
 // 🔹 FETCH — "I want to talk to the server using JavaScript"
 //             Type: JavaScript Web API function
