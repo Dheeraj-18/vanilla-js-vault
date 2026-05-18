@@ -10,7 +10,7 @@
 //         > Inheritance
 //         > Polymorphism
 
-// There is no private or public ... identifier for data hiding in javascript bydefault in js oject are mutable until we make explicitly immutable
+// There is no private or public ... identifier for data hiding in javascript bydefault in js object are mutable until we make explicitly immutable
 // Note-3: New feature in JS i.e when key and value have same name then we directly put the key in the object
 //         eg. user = {
 //                       firstName,
