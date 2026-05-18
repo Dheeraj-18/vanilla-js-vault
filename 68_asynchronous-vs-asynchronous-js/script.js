@@ -42,6 +42,9 @@ button.addEventListener('click', () => {
 //   console.log('Hiii')
 // }, 4000)
 
+
+//  *********** Interview Question : Blocking the js main thread without async code**************** 
+
 // const blockingBtn = document.querySelector('.blocking-btn')
 
 // blockingBtn.addEventListener('click', () => {
