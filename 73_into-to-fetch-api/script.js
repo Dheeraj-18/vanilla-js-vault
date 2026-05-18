@@ -13,7 +13,7 @@
 // 8. BUT when we send POST we set the body content bascically send data in JSON to the backend
 // 9. **TO see and practice use dummyJSON website
 // 10. Javascript give a guarantees with the promise object that request of promise resolve only at ones that means promise object 
-//     have three state <pending> , <fulfilled> , <rejected> so request is just only ones the state change ony onces at a time and also 
+//     have three state <pending> , <fulfilled> , <rejected> so request is just only ones the state change only onces at a time and also 
 //     that Promise comes with the feature that this is immutable object so we not worry about the data 
 //        a) promise object are immutable 
 //        b) promise just resolve only at once
