@@ -22,7 +22,7 @@
 
 // This chain of linked objects is called the prototype chain.
 
-// NOTE-4: For Normal object there in no prototype chin , but when we see for the array or function they behind the seen are object so in thee prototype show array which
+// NOTE-4: For Normal object there in no prototype chin , but when we see for the array or function they behind the seen are object so in there prototype show array which
 //         is come from array class constructor and so on ....
 
 // NOTE-5: IF the property and method are same in child and parent class then , JavaScript always accesses the nearest property or method in the prototype chain.
