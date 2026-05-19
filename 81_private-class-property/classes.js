@@ -14,13 +14,13 @@
 // NOTE-4: Way to make the  property and methods private inside the class
 //          > make dynamic constructor methods property using #pro_name outside the constructor method and declare it inside the class as well.
 //          > make static or hardcode property inside the class by using # before property name .
-//          > TO make function private which declare inside the calls these go to the  prototype property of class (constructor fun) and object
+//          > TO make function private which declare inside the class these go to the  prototype property of class (constructor fun) and object
 //            also but by using # it becomes private and not go in prototype properties object Now, if we access function outside the class
 //            it throw an error
 //                > If we want to access methods inside the class use this keyword eg. this.#getFullName()
-//          > When we make any method in the calls private it not go into the prototype it directly put onto the class 
+//          > When we make any method in the class private it not go into the prototype it directly put onto the class 
 
-// NOTE-5: Can we make property private directly inside the object using # ?
+// NOTE-5: Can we make property private directly inside the Normal object using # ?
 //          > we not using # directly inside the object before property name it throw an error instead of these we use # inside the string .
 //             eg. '#firstName': "Ram"
 //          > and YES we can't access outside the object also that property eg. #firstName , So can we say we doing this why use of class 
