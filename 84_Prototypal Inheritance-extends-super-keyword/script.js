@@ -27,7 +27,6 @@
 
 // NOTE-5: IF the property and method are same in child and parent class then , JavaScript always accesses the nearest property or method in the prototype chain.
 
-// NOTE-6:
 
 class Person {
   live() {
