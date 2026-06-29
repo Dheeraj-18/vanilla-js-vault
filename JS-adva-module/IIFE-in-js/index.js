@@ -24,11 +24,11 @@
 
 +function(){
     console.log("IFFE");
-}
+}()
 
 -function(){
     console.log("IFFE");
-}
+}()
 
 const a = function(){
     console.log("IFFE");
