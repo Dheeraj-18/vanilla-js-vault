@@ -3,7 +3,7 @@
 // 1. string are indexed in the javascript and it also included spaces in indexing
 // 2. only one property i.e length and it also count space in the length
 // 3. method like touppercase() not modify the original string, only give a string in uppercase only
-// 4. trim() method is used to remove the extra space from the string
+// 4. trim() method is used to remove the extra space from the both end of  the string
 // 5. we also chaining our methods .trim().touppercase().
 // 6. includes('string') method check a perticular string is present in the given string or  not
 //    by  match exactly same even case ond space also , return value in true or false
