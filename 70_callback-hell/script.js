@@ -15,6 +15,19 @@
 //      How many times it runs
 //       Whether it even runs at all
 
+
+
+// Interview Answer
+
+// Q: Do Promises solve Callback Hell?
+// Yes.
+// They flatten nested callbacks into a readable chain using .then().
+
+// Q: Do Promises solve Inversion of Control?
+// Yes, to a large extent.
+// Instead of handing complete control of your callback to another function, you receive a Promise object that follows standardized rules. 
+// This makes asynchronous code much more reliable and predictable.
+
 function makeHttpRequest(method, url, callback) {
   const xhr = new XMLHttpRequest()
   xhr.responseType = 'json'
