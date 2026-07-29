@@ -15,6 +15,7 @@
 // 9. we also use await keyword outside the async function only when we set the type="module" attribute on script tag
 //    due to this new module scope are generate and all the variable declare in that module scope , all the variable including declare
 //    with let or const goes onto the module scope
+// 10. async and await are combine is used to handle promises
 //
 //
 
