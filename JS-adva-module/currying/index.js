@@ -1,3 +1,7 @@
+// Currying is a functional programming technique that transforms a function with multiple arguments into a series of functions that each 
+// take a single argument. This allows for the creation of more specialized functions by breaking down the argument-handling process.
+
+
 // currying function using bind() method
 
 let multiply = function (x, y) {
