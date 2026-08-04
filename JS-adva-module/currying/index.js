@@ -1,6 +1,9 @@
 // Currying is a functional programming technique that transforms a function with multiple arguments into a series of functions that each 
 // take a single argument. This allows for the creation of more specialized functions by breaking down the argument-handling process.
 
+// Another Definition: Currying is the process of converting a function with multiple parameters into a chain of functions where each function
+//                     takes exactly one argument and remembers the previous arguments using closures.
+
 
 // currying function using bind() method
 
