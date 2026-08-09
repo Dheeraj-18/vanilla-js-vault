@@ -1,6 +1,6 @@
 //                               ---------------- How to make Private class properties  -------------
 
-// NOTE-1: when class return the object that with the help of these object we change the class property So , this accessible form outside the
+// NOTE-1: when class return the object that with the help of these object we change the class property So , this accessible from outside the
 //         class Previously developer use to highlight this property is private declare with using (underscore _ ) before the property,
 //        just for convention (by doing this property doesn't make private it's just convention)
 
