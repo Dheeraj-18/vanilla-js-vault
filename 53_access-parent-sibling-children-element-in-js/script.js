@@ -11,7 +11,7 @@
 
 //              __________________________________________________________
 
-// element.nextElementSibling       ----> return a next html sibling element oject in DOM skipping the childNode 
+// element.nextElementSibling       ----> return a next html sibling element object in DOM skipping the childNode 
 // element.previousElementSibling   ----> return a previous html sibling element object in DOM skipping the childNode
 // a) same as parentElement we also not able to access any sibling instead of this we do chaining for access all sibling 
 //    eg. element.nextElementSibling.nextElementSibling 
